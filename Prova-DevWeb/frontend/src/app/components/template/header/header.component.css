@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.header .logo {
+  max-height: 30px;
+  color: #fff;
+}
+
+.header .title-group {
+  padding-left: 20px;
+}
+
+.header .title-group i {
+  padding-right: 6px;
+}
+mat-toolbar{
+  background-color: rgb(75, 140, 170)
+}

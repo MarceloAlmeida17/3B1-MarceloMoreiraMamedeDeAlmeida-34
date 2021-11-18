@@ -1,0 +1,28 @@
+button {
+  margin-bottom: 30px;
+}
+.teste {
+  display: flex;
+  justify-content: center;
+}
+.imagem {
+width: 200px;
+margin: 10px;
+position: relative;
+text-align: center;
+}
+.imagem::after {
+content: attr(data-title); /* estilo que coloco a legenda no lugar */
+position: absolute;
+width: 100%;
+bottom: -20px;
+left: 0;
+}
+mat-card-subtitle{
+  color: rgb(75, 140, 170);
+  }
+  mat-card-title {
+   color:  rgb(75, 140, 170);
+   font-size: 40px;
+  
+  }
